@@ -1,79 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<html>
+    <head>
+        <title>Document</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
 </head>
+    
 <body>
-    <body background="https://github.com/kspoth/Responsive.Portfolio/blob/main/Images/sayagata-400px.png?raw=true">
-        <div class="primary-nav fixed-top">
-          <div class="container" id="header">
-            <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-default">
-              <div class="navbar-brand" id="myName">
-                <h1>Seohui Choe</h1>
-              </div>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="nav navbar-nav ml-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-        </div>
-    
-        <div class="container" id="content">
-          <div class="row">
-            <div class="col-md-12">
-              <h2 id="pageName"><strong>About Me</strong></h2>
-            </div>
-          </div>
-    
-    
-          <article class="row single-post no-gutters">
-            <div class="col-12">
-              <div class="image-wrapper float-left pt-3 pr-3">
-                <img class="img-fluid" img id="myPhoto" src="https://github.com/kspoth/Responsive.Portfolio/blob/main/Images/ProfilePic.jpg?raw=true">
-              </div>
-    
-              <div class="single-post-content-wrapper pt-2 pr-1" id="myStory">
-                My name is Kevin Spoth, I graduated Shenandoah University with a Bachelor's in Science in 2012. I have spent my career as an insurance agent for Ecosystems Insurance Associates, LLC. I have enjoyed my career in this field and the company but have found a new passion with technology. I have a constant desire to learn
-                technologies and expand my knowledge.
-                I was unsure of how to pursue my new passion. I enrolled at J Sargeant Reynolds Community College and enrolled in computer science as well as mathematice courses. I was learning Discrete Mathematics, Object Oriented Programming languages, mostly Java.
-                This sparkled my interest further in the technology field specifically coding. 
 
-                I then found another opportunity being accepted into the University of Richmond's Coding Bootcamp. I am familiarizing myself with programming technologies such as JavaScript, HTML, CSS,
-                Bootstrap, Git and Github
-                through working on projects and exercises daily.
+    <body background="https://github.com/kspoth/Responsive.Portfolio/blob/main/Images/sayagata-400px.png?raw=true"></body>  
+    <header class="header">
+        <ul>
+            <li><h1 class="name">Kevin Spoth</h1></li>
+            <div class="navbar">
+                <li id="about"><a href="index.html">About Me</a></li>
+                <li id="portfolio"><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </div>
+        </ul>
+    </header>
+
+    
+    <div class="container">
+         
+        <div class="content">
+            <h2><strong>About Me</strong></h2>    
+            <p>              
+            <img id="myPhoto" src="https://github.com/kspoth/Responsive.Portfolio/blob/main/Images/ProfilePic.jpg?raw=true">
+                My name is Kevin Spoth, I graduated Shenandoah University with a Bachelor's in Science in 2012. I have spent most of my professional career as an insurance agent for Ecosystems Insurance Associates, LLC. I have enjoyed my career in this field and the company but I have found a new passion with software development. I have a constant desire to learn
+                technologies and expand my knowledge.
+                In the beginning, I was unsure of how to pursue my new passion. I enrolled at J Sargeant Reynolds Community College and enrolled in computer science as well as mathematic courses. I was learning Discrete Mathematics, Calculus, and Object Oriented Programming languages.
+                This sparkled my interest further in the technology field specifically coding. 
+                
                 <br>
+                <p>
+
+                I then found another opportunity being accepted into the University of Richmond's Coding Bootcamp. I am familiarizing myself with programming technologies such as JavaScript, HTML, CSS, Git and Github
+                through working on projects and exercises daily.
+                </p>
+                <br>
+                <p>
                 I am certain that my passion and interest in technology and business background will benefit your company. My determination and desire to achieve will benefit your team and company.
                 I look forward to my future as a Software Developer and would certainly like the
                 chance to discuss how my qualifications meet your company’s needs.
-              </div>
-    
-            </div>
-          </article>
-    
+                </p>
+            </p>
         </div>
-    
-        <div class="panel-footer panel-primary fixed-bottom">
-          <div class="brand-footer">Copyright ©</div>
-        </div>
-    
+        
+    </div>
+
+    <footer class="footer">
+        <div class="copyright">Copyright ©</div>
+    </footer>
+
 </body>
+
 </html>

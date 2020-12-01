@@ -11,7 +11,7 @@ https://i.ibb.co/RvRCBXf/Screen-Shot-2020-11-24-at-8-00-36-PM.png
 
 ## Project Description
 
-Using a combination of VS Code, HTML, CSS and Bootstrap I developed a portfolio site This portfolio site utilizies semantic HTML and Bootstrap to create a functional navbar, responsive layout and responsive images.
+Using a combination of VS Code, HTML, CSS and Bootstrap I developed a portfolio site. This portfolio site utilizies semantic HTML and Bootstrap to create a functional navbar, responsive layout and responsive images.
 
 ### Built With
 
